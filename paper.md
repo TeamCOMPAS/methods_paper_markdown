@@ -128,7 +128,7 @@ As the observational samples of these objects grow, there is a need for models o
 
 # Statement of need
 
-For typical astrophysical populations, such as merging compact objects, one typically does not know *a priori* which binaries will lead to the formation of the target population. This necessesitates evolving large, broad populations of binaries--a method known as population synthesis.
+For typical astrophysical populations, such as merging compact objects, one typically does not know *a priori* which binaries will lead to the formation of the target population. This necessitates evolving large, broad populations of binaries--a method known as population synthesis.
 
 Detailed stellar evolution codes are the most comprehensive way to model the evolution of a binary star, but these codes are currently still too computationally expensive to use to routinely evolve large populations. There is therefore a need for much more rapid population synthesis codes such as COMPAS.
 
