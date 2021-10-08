@@ -134,15 +134,21 @@ Detailed stellar evolution codes are the most comprehensive way to model the evo
 
 [COMPAS](https://compas.science) is a rapid binary population synthesis suite. Binary population synthesis codes parameterise complicated astrophysical processes (such as massive stellar evolution) with fitting formulae calibrated to more detailed models. Many of these processes are poorly constrained, and COMPAS aims to address this by providing multiple *prescriptions* for modelling each of these processes, allowing the user to freely change between them at runtime. 
 
-The core engine of COMPAS---responsible for calculating the evolution of single [@Hurley:2000pk] and binary [@Hurley:2002rf] stars---is written in object oriented C++ for speed and flexibility.
+# Details
 
-We provide Python scripts for both pre- and post-processing COMPAS outputs. A set of examples is also provided.
+The core engine of COMPAS---responsible for calculating the evolution of single [@Hurley:2000pk] and binary [@Hurley:2002rf] stars---is written in object oriented C++ for speed and flexibility. COMPAS is able to simulate the evolution of a typical binary in 
+
+A detailed description of the implementation of the COMPAS suite can be found in @COMPAS:2021methodsPaper.
+
+In addition to the core stellar and binary evolution engine, we provide Python scripts for both pre- and post-processing COMPAS outputs. Post-processing can account for integrating populations formed throughout cosmic history [@2019MNRAS.490.3740N] and methods to account for gravitational-wave selection effects [@Barrett:2017fcw]. A set of examples is also provided.
 
 COMPAS is *embarrassingly* parallel and can be trivially run on high performance computers, and distributed on cloud computing platforms such as Amazon Web Services.
 
 COMPAS was initially designed to focus on studies of merging binaries containing neutron stars and black holes, that are being observed through gravitational waves [@Stevenson2017FormationEvolution;@2018MNRAS.481.4009V]. 
+In recent years, the scope of systems investigated with COMPAS has begun to expand (see @COMPAS:2021methodsPaper or [the COMPAS collaboration website](https://compas.science) for a summary of COMPAS publications to date.)
 
-In recent years, the scope of systems investigated with COMPAS has begun to expand. See @COMPAS:2021methodsPaper or [the COMPAS collaboration website](https://compas.science) for a summary of COMPAS publications to date. COMPAS development happens on [Github](https://github.com/TeamCOMPAS/COMPAS).
+COMPAS development happens on [Github](https://github.com/TeamCOMPAS/COMPAS). We maintain a [Zenodo community](https://zenodo.
+org/communities/compas/) where data from many publications using COMPAS is publicly available. 
 
 
 <!--
