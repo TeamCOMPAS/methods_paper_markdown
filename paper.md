@@ -123,28 +123,31 @@ Your paper should include:
 
 # Summary
 
-large populations of stars
-binaries gravitational waves.
-detailed ste
-hence binary population synthesis codes.
-uncertainties, options
-
-binaries produce such as the diversity of supernovae, binary pulsars, X-ray binaries and merging compact objects.
+Most massive stars---those with initial masses greater than 8 $M_\odot$---are born with another similarly massive star as a companion [@Sana:2012Sci]. Binary stars are responsible for producing many exotic astrophysical phenomena, such as the observed diversity of supernovae, binary pulsars, X-ray binaries and merging compact objects. The latter are now regularly observed by the ground-based gravitational wave observatories Advanced LIGO and Virgo [@abbott2016observation].
+As the observational samples of these objects grow, there is a need for models of their expected properties, in order to interpret the observations. These population models can also be used to make predictions for forthcoming observations.
 
 # Statement of need
 
-COMPAS is ...
+For typical astrophysical populations, such as merging compact objects, one typically does not know *a priori* which binaries will lead to the formation of the target population. This necessesitates evolving large, broad populations of binaries--a method known as population synthesis.
 
-The core engine of COMPAS responsible for calculating the evolution of single and
-binary stars is written in object oriented C++ for speed and flexibility.
+Detailed stellar evolution codes are the most comprehensive way to model the evolution of a binary star, but these codes are currently still too computationally expensive to use to routinely evolve large populations. There is therefore a need for much more rapid population synthesis codes such as COMPAS.
 
-We provide Python ,,
+[COMPAS](https://compas.science) is a rapid binary population synthesis suite. Binary population synthesis codes parameterise complicated astrophysical processes (such as massive stellar evolution) with fitting formulae calibrated to more detailed models. Many of these processes are poorly constrained, and COMPAS aims to address this by providing multiple *prescriptions* for modelling each of these processes, allowing the user to freely change between them at runtime. 
 
-postprocessing 
+The core engine of COMPAS---responsible for calculating the evolution of single [@Hurley:2000pk] and binary [@Hurley:2002rf] stars---is written in object oriented C++ for speed and flexibility.
 
-COMPAS was initially designed to focus on studies of merging binaries containing neutron stars and black holes, that are being observed through gravitational waves. 
-In recent years, the scope of systems investigated with COMPAS has begun to expand. See [@COMPAS:2021methodsPaper] or the COMPAS collaboration website for a summary of COMPAS publications to date.
+We provide Python scripts for both pre- and post-processing COMPAS outputs. A set of examples is also provided.
 
+COMPAS is *embarrassingly* parallel and can be trivially run on high performance computers, and distributed on cloud computing platforms such as Amazon Web Services.
+
+COMPAS was initially designed to focus on studies of merging binaries containing neutron stars and black holes, that are being observed through gravitational waves [@Stevenson2017FormationEvolution;@2018MNRAS.481.4009V]. 
+
+In recent years, the scope of systems investigated with COMPAS has begun to expand. See @COMPAS:2021methodsPaper or [the COMPAS collaboration website](https://compas.science) for a summary of COMPAS publications to date. COMPAS development happens on [Github](https://github.com/TeamCOMPAS/COMPAS).
+
+
+<!--
+  You can link to external websites by doing [go here](http://www.link-to-website.com)
+-->
 
 <!--
 `Gala` is an Astropy-affiliated Python package for galactic dynamics. Python
