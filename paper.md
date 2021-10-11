@@ -107,7 +107,7 @@ Most massive stars---those with initial masses greater than 8 $M_\odot$---are bo
 
 Binary population synthesis generates population models of isolated stellar binaries under a set of parametrised assumptions.  These models permit comparisons against observational data sets, such as X-ray binaries of gravitational-wave mergers.   
 
-In particular, rapid binary population synthesis is neededd in order to efficiently explore a broad parameter space of uncertain assumptions about the physics of stellar and binary evolution, including supernova remnant masses and natal kicks, mass transfer efficiency and stability, and the outcome of common-envelope events.  
+In particular, rapid binary population synthesis is needed in order to efficiently explore a broad parameter space of uncertain assumptions about the physics of stellar and binary evolution, including supernova remnant masses and natal kicks, mass transfer efficiency and stability, and the outcome of common-envelope events.  
 
 [COMPAS](https://compas.science) is such a rapid binary population synthesis suite. It parameterises complex astrophysical processes with prescriptions calibrated to detailed models.  COMPAS is designed to allow for flexible modifications as evolutionary models improve. 
 
@@ -123,7 +123,7 @@ In addition to the core stellar and binary evolution engine, we provide Python s
 COMPAS is *embarrassingly* parallel and can be trivially run on high performance computers, and distributed on cloud computing platforms such as Amazon Web Services.
 
 COMPAS was initially designed to focus on studies of merging binaries containing neutron stars and black holes, that are being observed through gravitational waves [@Stevenson2017FormationEvolution;@2018MNRAS.481.4009V]. 
-In recent years, the scope of systems investigated with COMPAS has expanded to incorporate, e.g., Be X-ray binaaries and luminous red novae (see @COMPAS:2021methodsPaper or [the COMPAS collaboration website](https://compas.science) for a summary of COMPAS publications to date.)
+In recent years, the scope of systems investigated with COMPAS has expanded to incorporate, e.g., Be X-ray binaries and luminous red novae (see @COMPAS:2021methodsPaper or [the COMPAS collaboration website](https://compas.science) for a summary of COMPAS publications to date.)
 
 COMPAS development happens on [Github](https://github.com/TeamCOMPAS/COMPAS). We maintain a [Zenodo community](https://zenodo.
 org/communities/compas/) where data from many publications using COMPAS is publicly available. 
