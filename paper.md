@@ -123,20 +123,20 @@ Your paper should include:
 
 # Summary
 
-Most massive stars---those with initial masses greater than 8 $M_\odot$---are born with another similarly massive star as a companion [@Sana:2012Sci]. Binary stars are responsible for producing many exotic astrophysical phenomena, such as the observed diversity of supernovae, binary pulsars, X-ray binaries and merging compact objects. The latter are now regularly observed by the ground-based gravitational wave observatories Advanced LIGO and Virgo [@abbott2016observation].
-As the observational samples of these objects grow, there is a need for models of their expected properties, in order to interpret the observations. These population models can also be used to make predictions for forthcoming observations.
+Most massive stars---those with initial masses greater than 8 $M_\odot$---are born with another similarly massive star as a companion [@Sana:2012Sci]. Massive binary stars are responsible for producing many exotic astrophysical phenomena, such as the observed diversity of supernovae, binary pulsars, X-ray binaries and merging compact objects. The latter are now regularly observed by the ground-based gravitational wave observatories Advanced LIGO and Virgo [@abbott2016observation].  Population models of massive binary evolution make it possible to interpret existing observations and to make predictions for future observing campains.  
 
 # Statement of need
 
-For typical astrophysical populations, such as merging compact objects, one typically does not know *a priori* which binaries will lead to the formation of the target population. This necessitates evolving large, broad populations of binaries--a method known as population synthesis.
+Binary population synthesis generates population models of isolated stellar binaries under a set of parametrised assumptions.  These models permit comparisons against observational data sets, such as X-ray binaries of gravitational-wave mergers.   
 
-Detailed stellar evolution codes are the most comprehensive way to model the evolution of a binary star, but these codes are currently still too computationally expensive to use to routinely evolve large populations. There is therefore a need for much more rapid population synthesis codes such as COMPAS.
+In particular, rapid binary population synthesis is neededd in order to efficiently explore a broad parameter space of uncertain assumptions about the physics of stellar and binary evolution, including supernova remnant masses and natal kicks, mass transfer efficiency and stability, and the outcome of common-envelope events.  
 
-[COMPAS](https://compas.science) is a rapid binary population synthesis suite. Binary population synthesis codes parameterise complicated astrophysical processes (such as massive stellar evolution) with fitting formulae calibrated to more detailed models. Many of these processes are poorly constrained, and COMPAS aims to address this by providing multiple *prescriptions* for modelling each of these processes, allowing the user to freely change between them at runtime. 
+[COMPAS](https://compas.science) is such a rapid binary population synthesis suite. It parameterises complex astrophysical processes with prescriptions calibrated to detailed models.  COMPAS is designed to allow for flexible modifications as evolutionary models improve. 
+
 
 # Details
 
-The core engine of COMPAS---responsible for calculating the evolution of single [@Hurley:2000pk] and binary [@Hurley:2002rf] stars---is written in object oriented C++ for speed and flexibility. COMPAS is able to simulate the evolution of a typical binary in 
+The core engine of COMPAS---responsible for calculating the evolution of single [@Hurley:2000pk] and binary [@Hurley:2002rf] stars---is written in object oriented C++ for speed and flexibility. COMPAS is able to simulate the evolution of a typical binary over 10 Gyr in approximately 10 milliseconds.
 
 A detailed description of the implementation of the COMPAS suite can be found in @COMPAS:2021methodsPaper.
 
@@ -145,7 +145,7 @@ In addition to the core stellar and binary evolution engine, we provide Python s
 COMPAS is *embarrassingly* parallel and can be trivially run on high performance computers, and distributed on cloud computing platforms such as Amazon Web Services.
 
 COMPAS was initially designed to focus on studies of merging binaries containing neutron stars and black holes, that are being observed through gravitational waves [@Stevenson2017FormationEvolution;@2018MNRAS.481.4009V]. 
-In recent years, the scope of systems investigated with COMPAS has begun to expand (see @COMPAS:2021methodsPaper or [the COMPAS collaboration website](https://compas.science) for a summary of COMPAS publications to date.)
+In recent years, the scope of systems investigated with COMPAS has expanded to incorporate, e.g., Be X-ray binaaries and luminous red novae (see @COMPAS:2021methodsPaper or [the COMPAS collaboration website](https://compas.science) for a summary of COMPAS publications to date.)
 
 COMPAS development happens on [Github](https://github.com/TeamCOMPAS/COMPAS). We maintain a [Zenodo community](https://zenodo.
 org/communities/compas/) where data from many publications using COMPAS is publicly available. 
