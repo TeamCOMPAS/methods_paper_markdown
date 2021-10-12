@@ -10,9 +10,9 @@ authors:
   - name: Team COMPAS
     affiliation: "1" # (Multiple affiliations must be quoted)
   - name: Jeff Riley 
-    affiliation: "2, 3"
+    affiliation: "2,3"
   - name: Poojan Agrawal
-    affiliation: "4, 3"
+    affiliation: "4,3"
   - name: Jim W. Barrett
     affiliation: 5
   - name: Kristian N. K. Boyett
@@ -20,17 +20,17 @@ authors:
   - name: Floor S. Broekgaarden
     affiliation: 7
   - name: Debatri Chattopadhyay
-    affiliation: "8, 4, 3"
+    affiliation: "8,4,3"
   - name: Sebastian M. Gaebel
     affiliation: 9
   - name: Fabian Gittins
     affiliation: 10
   - name: Ryosuke Hirai
-    affiliation: 2,3
+    affiliation: "2,3"
   - name: George Howitt
     affiliation: 11
   - name: Stephen Justham
-    affiliation: "12, 13, 14"
+    affiliation: "12,13,14"
   - name: Lokesh Khandelwal
     affiliation: 12
   - name: Floris Kummer
@@ -40,21 +40,21 @@ authors:
   - name: Ilya Mandel
     affiliation: "2,3,5"
   - name: Selma E. de Mink
-    affiliation: "14, 12, 7"
+    affiliation: "14,12,7"
   - name: Coenraad Neijssel
     affiliation: "5,3"
   - name: Tim Riley
     affiliation: "2,3"
   - name: Lieke van Son
-    affiliation: "7, 12, 14"
+    affiliation: "7,12,14"
   - name: Simon Stevenson
     affiliation: "4,3"
   - name: Alejandro Vigna-Gómez
-    affiliation: "15, 16"
+    affiliation: "15,16"
   - name: Serena Vinciguerra
     affiliation: 12
   - name: Tom Wagg
-    affiliation: "7, 14"
+    affiliation: "7,14"
   - name: Reinhold Willcox
     affiliation: "2,3"
 affiliations:
