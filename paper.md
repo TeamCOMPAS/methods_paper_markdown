@@ -101,15 +101,15 @@ aas-journal: Astrophysical Journal Supplements <- The name of the AAS journal.
 
 # Summary
 
-Most massive stars---those with initial masses greater than 8 $M_\odot$---are born with another similarly massive star as a companion [@Sana:2012Sci]. Massive binary stars are responsible for producing many exotic astrophysical phenomena, such as the observed diversity of supernovae, binary pulsars, X-ray binaries and merging compact objects. The latter are now regularly observed by the ground-based gravitational wave observatories Advanced LIGO and Virgo [@abbott2016observation].  Population models of massive binary evolution make it possible to interpret existing observations and to make predictions for future observing campaigns.  
+Most massive stars---those with initial masses greater than 8 $M_\odot$---are born with another similarly massive star as a companion [@Sana:2012Sci]. Massive binary stars are responsible for producing many exotic astrophysical phenomena, such as the observed diversity of supernovae, binary pulsars, X-ray binaries and merging compact objects. The latter are now regularly observed by the ground-based gravitational wave observatories Advanced LIGO and Virgo [@abbott2016observation;@GWTC2].  Population models of massive binary evolution make it possible to interpret existing observations and to make predictions for future observing campaigns.  
 
 # Statement of need
 
-Binary population synthesis generates population models of isolated stellar binaries under a set of parametrised assumptions.  These models permit comparisons against observational data sets, such as X-ray binaries of gravitational-wave mergers.   
+Binary population synthesis generates population models of isolated stellar binaries under a set of parametrized assumptions.  These models permit comparisons against observational data sets, such as X-ray binaries of gravitational-wave mergers.   
 
 In particular, rapid binary population synthesis is needed in order to efficiently explore a broad parameter space of uncertain assumptions about the physics of stellar and binary evolution, including supernova remnant masses and natal kicks, mass transfer efficiency and stability, and the outcome of common-envelope events.  
 
-[COMPAS](https://compas.science) is such a rapid binary population synthesis suite. It parameterises complex astrophysical processes with prescriptions calibrated to detailed models.  COMPAS is designed to allow for flexible modifications as evolutionary models improve. 
+[COMPAS](https://compas.science) is such a rapid binary population synthesis suite. It parametrizes complex astrophysical processes with prescriptions calibrated to detailed models.  COMPAS is designed to allow for flexible modifications as evolutionary models improve. 
 
 
 # Details
@@ -120,23 +120,17 @@ A detailed description of the implementation of the COMPAS suite can be found in
 
 In addition to the core stellar and binary evolution engine, we provide Python scripts for both pre- and post-processing COMPAS outputs. Post-processing can account for integrating populations formed throughout cosmic history [@2019MNRAS.490.3740N] and methods to account for gravitational-wave selection effects [@Barrett:2017fcw]. A set of examples is also provided.
 
-COMPAS is *embarrassingly* parallel and can be trivially run on high performance computers, and distributed on cloud computing platforms such as Amazon Web Services.
+COMPAS is *embarrassingly* parallel and can be trivially run on high performance computers and distributed on cloud computing.
 
-COMPAS was initially designed to focus on studies of merging binaries containing neutron stars and black holes, that are being observed through gravitational waves [@Stevenson2017FormationEvolution;@2018MNRAS.481.4009V]. 
-In recent years, the scope of systems investigated with COMPAS has expanded to incorporate, e.g., Be X-ray binaries and luminous red novae (see @COMPAS:2021methodsPaper or [the COMPAS collaboration website](https://compas.science) for a summary of COMPAS publications to date.)
+COMPAS was initially designed to focus on studies of merging binaries containing neutron stars and black holes that are being observed through gravitational waves [@Stevenson2017FormationEvolution;@2018MNRAS.481.4009V]. 
+In recent years, the scope of systems investigated with COMPAS has expanded to incorporate, e.g., Be X-ray binaries [@Vinciguerra:2020] and luminous red novae [@Howitt:2020] (see @COMPAS:2021methodsPaper or [the COMPAS collaboration website](https://compas.science) for a summary of COMPAS publications to date.)
 
-COMPAS development happens on [Github](https://github.com/TeamCOMPAS/COMPAS). We maintain a [Zenodo community](https://zenodo.
-org/communities/compas/) where data from many publications using COMPAS is publicly available. 
+COMPAS development happens on [Github](https://github.com/TeamCOMPAS/COMPAS). We maintain a [Zenodo community](https://zenodo.org/communities/compas/) where data from many publications using COMPAS is publicly available. 
 
 
 # Acknowledgements
 
-Multiple authors are supported by the Australian Research Council Centre of Excellence for Gravitational Wave Discovery (OzGrav), through project number CE170100004.
-Multiple authors were funded in part by the National Science Foundation under Grant No. (NSF grant number 2009131), the Netherlands Organization for Scientific Research (NWO) as part of the Vidi research program BinWaves with project number 639.042.728 and by the European Union’s Horizon 2020 research and innovation program from the European Research Council
-(ERC, Grant agreement No. 715063). 
-FSB is supported in part by the Prins Bernard Cultuurfonds studiebeurs.
-IM is a recipient of an Australian Research Council Future Fellowship (FT190100574). 
-AVG acknowledges funding support by the Danish National Research Foundation (DNRF132)
+Multiple authors are supported by the Australian Research Council Centre of Excellence for Gravitational Wave Discovery (OzGrav), through project number CE170100004. Multiple authors were funded in part by the National Science Foundation under Grant No. (NSF grant number 2009131), the Netherlands Organization for Scientific Research (NWO) as part of the Vidi research program BinWaves with project number 639.042.728 and by the European Union’s Horizon 2020 research and innovation program from the European Research Council (ERC, Grant agreement No. 715063).  FSB is supported in part by the Prins Bernard Cultuurfonds studiebeurs. IM is a recipient of an Australian Research Council Future Fellowship (FT190100574).  AVG acknowledges funding support by the Danish National Research Foundation (DNRF132)
 
 
 # References
